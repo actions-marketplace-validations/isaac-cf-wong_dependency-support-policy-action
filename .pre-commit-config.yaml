@@ -25,7 +25,7 @@ repos:
           - id: check-docstring-first
 
     - repo: https://github.com/astral-sh/ruff-pre-commit
-      rev: v0.16.6
+      rev: v0.16.7
       hooks:
           - id: ruff
             args: [--fix, --config=pyproject.toml]
@@ -63,7 +63,7 @@ repos:
           - id: actionlint
 
     - repo: https://github.com/astral-sh/uv-pre-commit
-      rev: 0.12.12
+      rev: 0.12.13
       hooks:
           - id: uv-lock
 
